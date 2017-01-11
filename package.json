@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "marcelle.cc",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "author": "Daigo Shitara<stain.witness@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.26.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^2.3.1"
+  },
+  "dependencies": {
+    "mithril": "^0.2.5"
+  }
+}
